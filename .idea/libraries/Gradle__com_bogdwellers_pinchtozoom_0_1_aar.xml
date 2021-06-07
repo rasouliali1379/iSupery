@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bogdwellers:pinchtozoom:0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8568131fb82cb2066a67936850f14687/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8568131fb82cb2066a67936850f14687/jetified-pinchtozoom-0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8568131fb82cb2066a67936850f14687/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab6eefd2247f6c925b9b91ffc342d621/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab6eefd2247f6c925b9b91ffc342d621/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab6eefd2247f6c925b9b91ffc342d621/jetified-pinchtozoom-0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1735d74d6bad8a6868ff5e966e70349e/jetified-pinchtozoom-0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1735d74d6bad8a6868ff5e966e70349e/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1735d74d6bad8a6868ff5e966e70349e/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a49673c14606494a945224314b68ac4/jetified-pinchtozoom-0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a49673c14606494a945224314b68ac4/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a49673c14606494a945224314b68ac4/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8bfc2679403fec1c7a1ca2868fd319b/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8bfc2679403fec1c7a1ca2868fd319b/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8bfc2679403fec1c7a1ca2868fd319b/jetified-pinchtozoom-0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bogdwellers/pinchtozoom/0.1/90d7ae77cbd84889a7fe1608c14108545fd30ec7/pinchtozoom-0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isupery_-_all_shops.iml" filepath="$PROJECT_DIR$/.idea/modules/isupery_-_all_shops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/isupery_-_all_shops.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/isupery_-_all_shops.app.iml" />
+    </modules>
+  </component>
+</project>

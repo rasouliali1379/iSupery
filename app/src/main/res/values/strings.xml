@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  App Information -->
+    <string name="app_name" translatable="false"> iSupery </string>
+
+    <!--  Google App Key -->
+    <string name="google_api_app_id" translatable="false">AIzaSyB8JIPt3xa2Vp-hcMei-rSnu9Q3mZVaAF0</string>
+
+    <!--  Main Strings -->
+    <string name="actionSearch"> جستجو </string>
+    <string name="actionLanguage"> زبان </string>
+
+    <string name="actionHome"> خانه </string>
+    <string name="actionCategory"> دسته بندی </string>
+    <string name="actionCategories"> دسته بندی </string>
+    <string name="actionShop"> فروشگاه </string>
+    <string name="actionCart"> سبدخرید من </string>
+    <string name="actionOrders"> سفارشات من </string>
+    <string name="actionAccount"> حساب من </string>
+    <string name="actionAddresses"> آدرسهای من </string>
+    <string name="actionFavourites"> علاقه مندی ها </string>
+    <string name="actionSettings"> تنظیمات </string>
+    <string name="actionNews"> بلاگ </string>
+    <string name="actionIntro"> معرفی </string>
+    <string name="actionAbout"> درباره </string>
+    <string name="actionContactUs"> تماس با ما </string>
+    <string name="actionShareApp"> اشتراک گذاری </string>
+    <string name="actionRateApp"> امتیاز دادن به اپ </string>
+    <string name="actionLogin"> ورود </string>
+    <string name="actionLogout"> خروج </string>
+
+    <string name="homeStyle1"> خانه 1 </string>
+    <string name="homeStyle2"> خانه 2 </string>
+    <string name="homeStyle3"> خانه 3 </string>
+    <string name="homeStyle4"> خانه 4 </string>
+    <string name="homeStyle5"> خانه 5 </string>
+    <string name="categoryStyle1"> دسته بندی 1 </string>
+    <string name="categoryStyle2"> دسته بندی 2 </string>
+    <string name="categoryStyle3"> دسته بندی 3 </string>
+    <string name="categoryStyle4"> دسته بندی 4 </string>
+    <string name="categoryStyle5"> دسته بندی 5 </string>
+    <string name="categoryStyle6"> دسته بندی 6 </string>
+
+    <string name="Sale"> فروش </string>
+    <string name="Newest"> جدیدترین </string>
+    <string name="Featured"> ویژه </string>
+
+    <string name="all"> همه </string>
+    <string name="newest"> جدیدترین </string>
+    <string name="featured"> ویژه </string>
+    <string name="super_deals"> حراجی ها </string>
+    <string name="recentlyViewed"> به تازگی بازدید شده </string>
+
+    <string name="news_all"> همه اخبار </string>
+    <string name="news_categories"> دسته بندی های جدید </string>
+    <string name="news_description"> شرح اخبار </string>
+
+
+    <!--  Other Strings -->
+    <string name="ok"> خوب </string>
+    <string name="and"> و </string>
+    <string name="NEW"> جدید </string>
+    <string name="save"> ذخیره </string>
+    <string name="send"> ارسال </string>
+    <string name="next"> بعدی </string>
+    <string name="grant"> اعطا کردن </string>
+    <string name="title"> عنوان </string>
+    <string name="retry"> دوباره امتحان کنید </string>
+    <string name="apply">  تایید </string>
+    <string name="search"> جستجو </string>
+    <string name="clear"> پاک کردن </string>
+    <string name="login"> ورود </string>
+    <string name="signup"> ثبت نام </string>
+    <string name="cancel"> لغو </string>
+    <string name="welcome"> خوش آمدید </string>
+    <string name="explore"> کاوش </string>
+    <string name="checkout"> تسویه حساب </string>
+    <string name="register"> ثبت نام </string>
+    <string name="drawerOpen"> باز کردن منو </string>
+    <string name="drawerClose"> بستن منو </string>
+
+    <string name="view"> مشاهده </string>
+    <string name="date"> تاریخ </string>
+    <string name="products"> محصولات </string>
+    <string name="category"> دسته بندی </string>
+    <string name="categories"> دسته بندی ها </string>
+    <string name="total_price"> قیمت کل </string>
+    <string name="product_price"> قیمت کالا </string>
+    <string name="checkout_price"> قیمت قابل پرداخت </string>
+    <string name="product_title"> عنوان محصول </string>
+    <string name="view_product"> مشاهده محصول </string>
+    <string name="quantity"> مقدار (کیلوگرم/تعداد) </string>
+    <string name="description"> توضیحات محصول </string>
+    <string name="attribute_name"> نام مشخصه </string>
+    <string name="product_description"> توضیحات محصول </string>
+
+    <string name="google_login"> ورود با گوگل </string>
+    <string name="facebook_login"> ورود با فیس بوک </string>
+    <string name="in_stock"> در انبار </string>
+    <string name="outOfStock"> تمام شده </string>
+    <string name="addToCart"> افزودن به سبد خرید </string>
+    <string name="removeProduct"> حذف محصول </string>
+    <string name="save_address"> ثبت </string>
+    <string name="save_changes"> ذخیره تغییرات </string>
+    <string name="reset_filters"> فیلتر کردن مجدد </string>
+    <string name="continue_shopping"> ادامه خرید </string>
+
+    <string name="order_id"> شماره سفارش </string>
+    <string name="order_status"> وضعیت سفارش </string>
+    <string name="order_date"> تاریخ سفارش </string>
+    <string name="order_details"> جزئیات سفارش </string>
+    <string name="order_confirmed"> سفارش تایید شده است </string>
+    <string name="order_notes"> یادداشت سفارش </string>
+    <string name="cancel_order"> لغو سفارش </string>
+    <string name="no_of_products"> تعداد محصولات </string>
+
+    <string name="tax"> مالیات </string>
+    <string name="shipping"> حمل و نقل </string>
+    <string name="discount"> تخفیف </string>
+    <string name="subtotal"> کل حجم </string>
+    <string name="total"> جمع </string>
+    <string name="coupon"> کوپن </string>
+    <string name="coupon_code"> کوپن کد </string>
+    <string name="coupon_amount"> مبلغ کوپن </string>
+    <string name="coupon_discount"> تخفیف کوپن </string>
+    <string name="coupon_type"> نوع کوپن </string>
+    <string name="sample_coupons"> کد کوپن نمونه </string>
+    <string name="payment_method"> روش پرداخت </string>
+    <string name="billing_address"> آدرس قبض </string>
+    <string name="shipping_address"> آدرس حمل و نقل </string>
+    <string name="shipping_method"> روش حمل و نقل </string>
+
+    <string name="choose_option"> گزینه را انتخاب کنید </string>
+    <string name="additional_info"> اطلاعات اضافی </string>
+    <string name="related_products"> محصولات مرتبط </string>
+    <string name="continue_guest"> ادامه دادن به عنوان مهمان </string>
+    <string name="rate_product"> امتیاز محصول </string>
+    <string name="reviews_ratings"> امتیازها و نظرات </string>
+
+
+    <!--  Form Strings -->
+    <string name="full_name"> نام و نام خانوادگی </string>
+    <string name="first_name"> نام </string>
+    <string name="last_name"> نام خانوادگی </string>
+    <string name="username"> نام کاربری </string>
+    <string name="email"> ایمیل </string>
+    <string name="email_address"> آدرس ایمیل </string>
+    <string name="mobile"> موبایل </string>
+    <string name="contact_no"> شماره تماس </string>
+    <string name="address"> آدرس </string>
+    <string name="address_1"> آدرس </string>
+    <string name="address_2"> آدرس 2 </string>
+    <string name="company"> شرکت </string>
+    <string name="country"> کشور </string>
+    <string name="zone"> منطقه </string>
+    <string name="city"> شهر </string>
+    <string name="post_code"> کد پستی </string>
+    <string name="password"> رمز عبور </string>
+    <string name="new_password"> رمز عبور جدید </string>
+    <string name="edit_profile"> ویرایش مشخصات </string>
+
+
+    <!--  Messages Strings -->
+    <string name="thank_you"> متشکرم </string>
+    <string name="add_coupon"> اضافه کردن کوپن؟ </string>
+    <string name="your_message"> نظر شما </string>
+    <string name="empty_cart"> سبد خرید شما خالی است </string>
+    <string name="record_not_found"> هیچ سفارشی یافت نشد! </string>
+    <string name="item_added_to_cart"> به سبد خرید اضافه شد </string>
+    <string name="added_to_favourites"> به علاقه مندی ها اضافه شد  </string>
+    <string name="removed_from_favourites"> از علاقه مندی ها حذف شد </string>
+    <string name="not_a_member"> عضو نیستی؟ </string>
+    <string name="login_or_signup"> ورود یا ثبت نام </string>
+    <string name="login_or_create_account"> لطفا وارد شوید یا حساب کاربری ایجاد کنید </string>
+    <string name="thank_you_for_shopping"> از اعتماد شما به ما متشکریم! </string>
+    <string name="coupon_removes_other_coupons"> این کوپن ممکن است تمام کوپن های دیگر را حذف کند! </string>
+
+    <string name="forgot_your_password"> رمز عبور خود را فراموش کرده اید؟ </string>
+    <string name="forgot_password"> من رمز خود را فراموش کرده ام؟ </string>
+    <string name="already_have_account"> در حال حاضر یک حساب کاربری دارید؟ </string>
+    <string name="search_product_by_name"> چیزی را جستجو کنید </string>
+    <string name="default_shipping"> آدرس ارسال پیش فرض </string>
+
+    <string name="order_placed"> سفارش موفقیت آمیز. </string>
+    <string name="order_cancelled"> سفارش با موفقیت لغو شد. </string>
+    <string name="account_updated"> جزئیات حساب با موفقیت به روز شد. </string>
+
+    <string name="permission_rejected"> اجازه داده نشده است! </string>
+    <string name="permission_camera_storage"> نیاز به مجوز دوربین و ذخیره سازی! </string>
+    <string name="permission_camera_storage_needed"> این برنامه نیاز به مجوز های دوربین و ذخیره برای گرفتن عکس از گالری و یا با دوربین دارد. </string>
+
+    <string name="rate_now"> ثبت نظر </string>
+    <string name="not_now"> الان نه </string>
+    <string name="rate_app_msg"> اگر شما از استفاده اپلیکیشن لذت برده اید، لحظه ای برای امتیاز دادن به آن وقت بگزارید. </string>
+
+
+    <!--  Errors Message Strings -->
+    <string name="enter_name"> اسم خود را وارد نمایید </string>
+    <string name="enter_city"> شهر خود را وارد نمایید </string>
+    <string name="enter_message"> پیام خود را وارد نمایید </string>
+    <string name="select_zone"> منطقه خود را انتخاب کنید </string>
+    <string name="select_country"> کشور خود را انتخاب کنید </string>
+    <string name="invalid_first_name"> نام نامعتبر </string>
+    <string name="invalid_last_name"> نام خانوادگی نامعتبر است </string>
+    <string name="invalid_email"> آدرس ایمیل نامعتبر است </string>
+    <string name="invalid_password"> رمز عبور نامعتبر است </string>
+    <string name="invalid_name"> نام نامعتبر است </string>
+    <string name="invalid_address"> آدرس نامعتبر است </string>
+    <string name="invalid_company"> شرکت نامعتبر است </string>
+    <string name="invalid_contact"> تماس نامعتبر است </string>
+    <string name="invalid_post_code"> کد پستی نامعتبر </string>
+    <string name="unexpected_response"> پاسخ سرور غیرمنتظره </string>
+    <string name="no_internet"> اتصال به اینترنت در دسترس نیست </string>
+
+
+    <!--  Coupon Error Strings -->
+    <string name="invalid_coupon"> کوپن نامعتبر است </string>
+    <string name="coupon_expired"> کوپن منقضی شده است! </string>
+    <string name="coupon_applied"> کوپن قبلا اعمال شده است! </string>
+    <string name="coupon_cannot_be_applied"> کوپن نمیتواند اعمال شود! </string>
+    <string name="coupon_used_by_you"> شما قبلا از این کوپن استفاده کرده اید! </string>
+    <string name="coupon_used_by_all"> کوپن توسط کاربران محدود استفاده شده است! </string>
+    <string name="coupon_is_not_for_you"> شما نمی توانید از این کوپن استفاده کنید! </string>
+    <string name="coupon_cannot_used_with_existing"> کوپن را نمی توان با کوپن موجود استفاده کرد! </string>
+    <string name="coupon_is_not_for_sale_items"> کوپن را نمی توان در موارد فروش استفاده کرد! </string>
+    <string name="coupon_is_not_for_too_many_products"> کوپن را نمی توان در محصولات زیاد استفاده کرد! </string>
+    <string name="coupon_is_not_for_these_products"> کوپن برای این محصولات معتبر نیست! </string>
+    <string name="coupon_is_not_for_these_categories"> کوپن برای این دسته از محصولات معتبر نیست! </string>
+    <string name="coupon_is_not_for_excluded_products"> کوپن را نمی توان در محصولات انحصاری مورد استفاده قرار داد! </string>
+    <string name="coupon_is_not_for_excluded_categories"> کوپن را نمی توان در دسته های حذف شده استفاده کرد! </string>
+    <string name="coupon_max_amount_is_less_than_order_total"> مجموع سبد خرید حداكثر مبلغ كوپن را برآورده نمي كند! </string>
+    <string name="coupon_min_amount_is_greater_than_order_total"> مجموع سبد خرید حداقل مبلغ كوپن را برآورده نكرده است! </string>
+
+
+    <!--  App Intro Slides Strings -->
+    <string name="slide_1_title"> صفحه نخست </string>
+    <string name="slide_2_title"> صفحه دسته بندی </string>
+    <string name="slide_3_title"> صفحه فروشگاه </string>
+    <string name="slide_4_title"> صفحه سبد خرید </string>
+    <string name="slide_5_title"> صفحه سفارش </string>
+    <string name="slide_1_desc"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </string>
+    <string name="slide_2_desc"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </string>
+    <string name="slide_3_desc"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </string>
+    <string name="slide_4_desc"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </string>
+    <string name="slide_5_desc"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </string>
+
+
+    <!--  App Settings Strings -->
+    <string name="select_language"> زبان را انتخاب کنید </string>
+    <string name="official_web"> وب سایت رسمی </string>
+    <string name="share_app"> اشتراک گذاری </string>
+    <string name="rate_app"> امتیاز دادن به اپ </string>
+    <string name="privacy_policy"> سیاست حفظ حریم خصوصی </string>
+    <string name="refund_policy"> سیاست بازپرداخت </string>
+    <string name="service_terms"> شرایط استفاده از خدمات </string>
+    <string name="ad_interstitial"> آگهی </string>
+
+    <string name="push_notification"> اطلاعیه ها </string>
+    <string name="local_notification"> اطلاعیه های محلی </string>
+
+
+    <string name="app_terms_services">
+        ایجاد یک حساب کاربری به این معنی است که شما قوانین ما را پذیرفته اید
+    </string>
+
+
+    <string-array name="sortBy_array">
+        <item> ا - ی </item>
+        <item> ی - ا </item>
+        <item> جدیدترین </item>
+    </string-array>
+
+
+    <string name="lorem_ipsum">
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+    </string>
+    <string name="messenger_send_button_text">رسال</string>
+    <string name="no_connection">ارتباط با سایت برقرار نشد</string>
+    <string name="try_again">تلاش دوباره</string>
+    <string name="product_price_range">محدوده ی قیمت کالا</string>
+    <string name="product_category">دسته بندی کالا ها</string>
+    <string name="nothing_found">موردی یافت نشد</string>
+    <string name="first_and_last_name">نام و نام خانوادگی</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="actionGuide">راهنما</string>
+    <string name="app_title">"فروشگاه اختصاصی برج های آسمان "</string>
+    <string name="tower">شماره برج</string>
+    <string name="towe_level">طبقه</string>
+    <string name="room_number">واحد</string>
+    <string name="additional_details">توضیحات تکمیلی</string>
+    <string name="product_subcategory">زیر گروه دسته بندی</string>
+    <string name="existance_of_product">فقط کالا های موجود</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="attention">توجه!</string>
+    <string name="order_time">ساعت سفارش</string>
+    <string name="quality_variations">ویژگی مرتبط با قیمت</string>
+    <string name="actionNotes">یادداشت</string>
+    <string name="note_title">عنوان یادداشت</string>
+    <string name="create_note">ایجاد یادداشت</string>
+    <string name="return_txt">بازگشت</string>
+    <string name="purchase_failed">خرید موفقیت آمیز نبود . دوباره تلاش کنید!</string>
+    <string name="order_submited">سفارش ثبت شد</string>
+    <string name="order_failed">سفراش ثبت نشد!</string>
+    <string name="product_not_found">محصول یافت نشد!</string>
+    <string name="write_your_note">یادداشت خود را بنویسید...</string>
+    <string name="search_dialog_title">انتخاب محصول</string>
+    <string name="search_products">محصولات را جستجو کنید</string>
+    <string name="only_on_sale">فقط جنس های تخفیف دار</string>
+    <string name="username_exist">نام کاربری قبلا ثبت شده ، نام کاربری دیگری انتخاب کنید</string>
+    <string name="email_exist">ایمیل وارد شده قبلا ثبت شده است ، ایمیل دیگری وارد کنید</string>
+    <string name="on_sale">فروش ویژه</string>
+    <string name="comment_submited">نظر شما ثبت شد!</string>
+    <string name="choose_your_shop">انتخاب فروشگاه : </string>
+    <string name="earch_shop_hint">اسم فروشگاه مد نظر را جستجو کنید</string>
+    <string name="exclusive_store">فروشگاه اختصاصی</string>
+    <string name="isupery">آی سوپری</string>
+    <string name="shop_selection_message">آیا از انتخاب این فروشگاه اطمینان دارید؟</string>
+    <string name="actionLogoutStore">خروج از فروشگاه</string>
+    <string name="exit_shop_alert">آیا برای خروج از فروشگاه اطمینان دارید؟</string>
+    <string name="english_characters_needed">حروف انگلیسی فقط مجاز است</string>
+
+
+</resources>

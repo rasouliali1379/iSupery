@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/note_product_item_cover"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/placeholder"
+                android:scaleType="centerCrop"
+                android:background="@color/windowBackground"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/note_product_item_cover">
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp"
+                        tools:ignore="WebViewLayout">
+                        <TextView
+                            android:id="@+id/note_product_item_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="2"
+                            android:textSize="14sp"
+                            android:text="نام محصول"
+                            android:textAlignment="viewStart"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/textColorSecondaryDark" />
+                        <WebView
+                            android:id="@+id/note_product_item_price_webView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toStartOf="@+id/product_like_btn"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/product_item_remove_btn"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_criss_cross"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true" >
+                <com.github.ybq.android.spinkit.SpinKitView
+                    android:id="@+id/note_product_item_cover_loader"
+                    style="@style/SpinKitView.Large.Circle"
+                    android:layout_centerInParent="true"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_vertical"
+                    app:SpinKit_Color="@color/colorPrimaryDark"/>
+            </FrameLayout>
+            <FrameLayout
+                android:visibility="gone"
+                android:id="@+id/note_product_item_main_progress"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.github.ybq.android.spinkit.SpinKitView
+                    style="@style/SpinKitView.Large.Circle"
+                    android:layout_centerInParent="true"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    app:SpinKit_Color="@color/colorPrimaryDark"/>
+            </FrameLayout>
+        </RelativeLayout>
+        <com.rayanandisheh.isuperynew.customs.LinedEditText
+            android:id="@+id/note_text_item_txt"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:hint="@string/write_your_note"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/textColorPrimaryDark"
+            android:textDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

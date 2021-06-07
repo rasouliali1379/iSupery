@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_note_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="100dp"
+    android:clipToPadding="false"
+    android:scrollbars="none"
+    android:background="@color/notebookColor"
+    tools:context=".fragments.TextNoteFragment">
+    <com.rayanandisheh.isuperynew.customs.LinedEditText
+        android:gravity="top"
+        android:id="@+id/note_editext"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="10dp"
+        android:paddingBottom="100dp"
+        android:lineSpacingMultiplier="1.0"
+        android:hint="@string/write_your_note"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</ScrollView>

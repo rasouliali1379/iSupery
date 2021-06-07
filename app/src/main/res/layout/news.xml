@@ -1,0 +1,46 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.rayanandisheh.isuperynew.customs.AppBarFlingScrollBehavior"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="2dp"
+            app:tabBackground="@color/white"
+            android:background="@color/white"
+            app:tabTextColor="@color/textColorSecondaryLight"
+            app:tabIndicatorColor="@color/textColorSecondaryDark"
+            app:tabSelectedTextColor="@color/textColorSecondaryDark"
+            style="@style/MyCustomTabLayout" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.rayanandisheh.isuperynew.customs.RtlViewPager
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackground"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <FrameLayout
+        android:id="@+id/banner_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

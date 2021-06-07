@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "893109823376",
+    "firebase_url": "https://isupery-44115.firebaseio.com",
+    "project_id": "isupery-44115",
+    "storage_bucket": "isupery-44115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893109823376:android:cef80fb22d775387473515",
+        "android_client_info": {
+          "package_name": "com.rayanandisheh.isuperynew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893109823376-pj326o6pieuj7rpqmiliom8so17jpbfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBednIFLck4HusmsiDVxiqLa4CIeT8ICwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893109823376-pj326o6pieuj7rpqmiliom8so17jpbfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

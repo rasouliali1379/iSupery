@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/primary_color_bg"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="3dp"
+                android:textSize="18dp"
+                android:text="@string/search_dialog_title"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:background="@drawable/rounded_corners_edittext_light"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/search_products_btn"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ic_search"
+                    app:tint="@color/textColorPrimaryDark"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    tools:targetApi="m" />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/search_products_et"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/search_products_btn"
+                    android:hint="@string/search_products"
+                    android:imeOptions="actionSearch"
+                    android:padding="5dp"
+                    android:maxLines="1"
+                    android:background="@null"
+                    android:inputType="textNoSuggestions"
+                    android:layout_toStartOf="@id/search_products_clear_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/search_products_clear_btn"
+                    android:src="@drawable/ic_cross"
+                    android:padding="10dp"
+                    android:visibility="invisible"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:animateLayoutChanges="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:scrollbars="none"
+                android:id="@+id/search_dialog_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/search_dialog_progress_bar"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                app:SpinKit_Color="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/search_dialog_nothing_found_txt"
+                android:layout_centerInParent="true"
+                android:text="@string/nothing_found"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
